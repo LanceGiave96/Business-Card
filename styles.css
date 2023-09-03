@@ -1,0 +1,137 @@
+body
+{	
+	background-image: url("images/universe.jpg");
+	font-family: Rockwell, Sans Serif, Verdana;
+	background-size: cover;
+}
+
+/*animations*/
+@keyframes color-blue 
+{
+  from {color: #222222;}
+  to {color: blue;}
+}
+
+@keyframes color-bordeaux 
+{
+  from {color: #222222;}
+  to {color: #bc4b51;}
+}
+
+@keyframes color-orange 
+{
+  from {color: #222222;}
+  to {color: #fb8500;}
+}
+
+@keyframes color-green 
+{
+  from {color: #222222;}
+  to {color: #2a9d8f;}
+}
+/*animations*/
+
+.avatar
+{
+	width: 150px;
+	height: 150px;
+	border: 5px solid blue;
+	border-radius: 33%;
+}
+
+.div-flex
+{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card
+{	
+	text-align: center;
+	color: #2b2839;
+	background: #222222;
+	border-bottom: 16px solid #004b23;
+	border-radius: 33%;
+	
+	/*Center horizontal and vertically*/
+	position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	/* margin-right: auto; */
+	/* margin-left: auto; */
+	
+	width: 500px;
+	height: 250px;
+	padding: 30px;
+	font-size: 15px;
+}
+
+/*
+.card:hover
+{
+	background-color: #70e000;
+}
+*/
+
+.italic
+{
+	font-style: italic;
+}
+
+.text-blue
+{
+	color: blue;
+	animation-name: color-blue;
+	animation-duration: 4s;
+}
+
+.text-orange
+{
+	color: #fb8500;
+	animation-name: color-orange;
+	animation-duration: 4s;
+}
+
+.text-green
+{
+	color: #2a9d8f;
+	animation-name: color-green;
+	animation-duration: 4s;
+}
+
+.text-shadow-black
+{
+	text-shadow: 3px 3px 10px black; 
+}
+
+.text-bordeaux
+{
+	color: #bc4b51;
+	animation-name: color-bordeaux;
+	animation-duration: 4s;
+}
+
+.text-blue-light
+{
+	color: #00b4d8;
+}
+
+.border-blue
+{
+	border: 1px dotted blue;
+}
+
+.vertical-center
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.top-position
+{
+	margin-bottom: 30px
+}
