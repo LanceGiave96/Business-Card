@@ -31,29 +31,12 @@ body
 }
 /*animations*/
 
-.avatar
-{
-	width: 150px;
-	height: 150px;
-	border: 5px solid blue;
-	border-radius: 33%;
-}
-
-.div-flex
-{
-	display: flex;
-	justify-content: space-around;
-	padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .card
 {	
+	/*Style*/
 	text-align: center;
 	color: #2b2839;
 	background: #222222;
-	border-bottom: 16px solid #004b23;
-	border-radius: 33%;
 	
 	/*Center horizontal and vertically*/
 	position: absolute;
@@ -61,13 +44,17 @@ body
 	left: 50%;
 	transform: translate(-50%, -50%);
 	
-	/* margin-right: auto; */
-	/* margin-left: auto; */
-	
-	width: 500px;
-	height: 250px;
-	padding: 30px;
+	/*Width-height*/
+	min-width: 315px;
+	min-height: 426px;
+	padding: 10px;
 	font-size: 15px;
+
+	/*Border and shadow*/
+	border-radius: 20px;
+	border: 3px solid #edede9;
+	box-shadow: 8px 8px 18px 5px #004b23;
+
 }
 
 /*
@@ -76,6 +63,49 @@ body
 	background-color: #70e000;
 }
 */
+
+.avatar
+{
+	width: 150px;
+	height: 150px;
+	border: 5px solid blue;
+	border-radius: 50%;
+}
+
+.div-flex
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+}
+
+#div-skills
+{
+	/*
+	border-radius: 20px;
+	border: 3px solid #edede9;
+	*/
+	min-width: 250px;
+	padding: 15px;;
+}
+
+#button-skills
+{
+	background-color: transparent;
+	font-family: inherit;
+	font-size: 20px;
+	color: #38b000;
+	border: none;
+	cursor: pointer;
+}
+
+.no-margin
+{
+	margin: 0px;
+}
 
 .italic
 {
@@ -120,18 +150,22 @@ body
 	color: #00b4d8;
 }
 
+.text-green-1
+{
+	color: #ccff33;
+}
+
+.text-green-2
+{
+	color: #70e000;
+}
+
+.text-green-3
+{
+	color: #5c8001;
+}
+
 .border-blue
 {
 	border: 1px dotted blue;
-}
-
-.vertical-center
-{
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-.top-position
-{
-	margin-bottom: 30px
 }
