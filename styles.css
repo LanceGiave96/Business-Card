@@ -3,6 +3,7 @@ body
 	background-image: url("images/space_2.jpg");
 	font-family: Rockwell, Sans Serif, Verdana;
 	background-size: cover;
+	user-select: none;
 }
 
 /*animations*/
@@ -33,6 +34,12 @@ body
 
 .card
 {	
+	/*Display*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
 	/*Style*/
 	text-align: center;
 	color: #2b2839;
@@ -45,15 +52,15 @@ body
 	transform: translate(-50%, -50%);
 	
 	/*Width-height*/
-	min-width: 315px;
-	min-height: 426px;
-	padding: 10px;
+	min-width: 600px;
+	min-height: 900px;
+	padding: 20px;
 	font-size: 15px;
 
 	/*Border and shadow*/
 	border-radius: 20px;
 	border: 3px solid #edede9;
-	box-shadow: 8px 8px 18px 5px #004b23;
+	box-shadow: 20px 20px 10px #004b23;
 
 }
 
@@ -66,8 +73,8 @@ body
 
 .avatar
 {
-	width: 150px;
-	height: 150px;
+	width: 250px;
+	height: 250px;
 	border: 5px solid blue;
 	border-radius: 50%;
 }
@@ -78,7 +85,7 @@ body
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
+	gap: 20px;
 	padding: 10px;
 }
 
@@ -98,8 +105,10 @@ body
 	font-family: inherit;
 	font-size: 20px;
 	color: #38b000;
-	border: none;
+	border: 3px solid #edede9;
+	border-radius: 15px;
 	cursor: pointer;
+	font-size: 40px;
 }
 
 .no-margin
@@ -117,6 +126,9 @@ body
 	color: blue;
 	animation-name: color-blue;
 	animation-duration: 4s;
+	font-size: 50px;
+	font-weight: bolder;
+	margin: 10px 0px 10px 0px;
 }
 
 .text-orange
@@ -124,6 +136,8 @@ body
 	color: #fb8500;
 	animation-name: color-orange;
 	animation-duration: 4s;
+	font-size: 20px;
+	margin: 10px 0px 10px 0px;
 }
 
 .text-green
@@ -131,6 +145,8 @@ body
 	color: #2a9d8f;
 	animation-name: color-green;
 	animation-duration: 4s;
+	font-size: 30px;
+	margin: 10px 0px 10px 0px;
 }
 
 .text-shadow-black
@@ -143,11 +159,14 @@ body
 	color: #bc4b51;
 	animation-name: color-bordeaux;
 	animation-duration: 4s;
+	font-size: 30px;
+	margin: 10px 0px 10px 0px;
 }
 
 .text-blue-light
 {
 	color: #00b4d8;
+	font-size: 30px;
 }
 
 .text-green-1
