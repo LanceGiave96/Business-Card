@@ -53,14 +53,14 @@ body
 	
 	/*Width-height*/
 	min-width: 600px;
-	min-height: 900px;
+	min-height: 850px;
 	padding: 20px;
 	font-size: 15px;
 
 	/*Border and shadow*/
 	border-radius: 20px;
 	border: 3px solid #edede9;
-	box-shadow: 20px 20px 10px #004b23;
+	box-shadow: 20px 20px 18px #004b23;
 
 }
 
@@ -83,9 +83,9 @@ body
 {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	gap: 20px;
+	gap: 30px;
 	padding: 10px;
 }
 
@@ -172,16 +172,19 @@ body
 .text-green-1
 {
 	color: #ccff33;
+	font-size: 25px;
 }
 
 .text-green-2
 {
 	color: #70e000;
+	font-size: 25px;
 }
 
 .text-green-3
 {
 	color: #5c8001;
+	font-size: 25px;
 }
 
 .border-blue
