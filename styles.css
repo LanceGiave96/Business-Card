@@ -52,15 +52,19 @@ body
 	transform: translate(-50%, -50%);
 	
 	/*Width-height*/
+	/*
 	min-width: 600px;
+	*/
 	min-height: 850px;
-	padding: 20px;
+	padding: 10px;
 	font-size: 15px;
 
 	/*Border and shadow*/
 	border-radius: 20px;
 	border: 3px solid #edede9;
+	/*
 	box-shadow: 20px 20px 18px #004b23;
+	*/
 
 }
 
