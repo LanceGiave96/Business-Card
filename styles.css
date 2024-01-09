@@ -43,8 +43,8 @@ body
 	/*Style*/
 	text-align: center;
 	color: #2b2839;
-	background: #222222;
-	
+	background: linear-gradient(#212529,#495057);
+
 	/*Center horizontal and vertically*/
 	position: absolute;
     top: 50%;
@@ -185,7 +185,7 @@ body
 
 .text-green-3
 {
-	color: #5c8001;
+	color: #38b000;
 	font-size: 25px;
 }
 
