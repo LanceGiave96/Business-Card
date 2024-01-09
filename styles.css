@@ -43,7 +43,7 @@ body
 	/*Style*/
 	text-align: center;
 	color: #2b2839;
-	background: linear-gradient(#212529,#495057);
+	background: linear-gradient(#495057,black);
 
 	/*Center horizontal and vertically*/
 	position: absolute;
