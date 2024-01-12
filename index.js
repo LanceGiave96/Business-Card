@@ -1,12 +1,11 @@
 
-let div_skills_el = document.getElementById("div-skills")
-let div_description_el = document.getElementById("div-presentation")
+const div_skills_el = document.getElementById("div-skills")
+const div_description_el = document.getElementById("div-presentation")
 div_skills_el.style.display = "none"
 div_description_el.style.display = "block"
 
-let button_el = document.getElementById("button-skills")
-
-function showSkills(){
+const button_skills = document.getElementById("button-skills")
+button_skills.addEventListener("click",function(){
     
     if(div_skills_el.style.display === "none")
     {
@@ -22,3 +21,19 @@ function showSkills(){
     }
 
 }
+)
+
+import background from "./background.js"
+const images = background.images
+const button_background = document.getElementById("button-background")
+button_background.addEventListener("click",getRandomBackground)
+
+function getRandomBackground(){
+
+    let random = Math.floor( Math.random() * images.length )
+    let image_url = images[random].url
+    document.body.style.backgroundImage = `url(${image_url})`
+
+}
+
+getRandomBackground()
