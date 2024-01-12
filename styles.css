@@ -120,9 +120,15 @@ body
 	padding: 3px 6px;
 }
 
-.button-style:hover
-{
-	background-color: rgb(216, 208, 212, 0.70);
+/*Hovering not in mobile devices*/
+@media (hover: hover){
+
+	.button-style:hover
+	{
+		background-color: /*rgb(216, 208, 212, 0.70)*/ #6c757d;
+	}
+
+
 }
 
 .no-margin
@@ -204,4 +210,11 @@ body
 .border-blue
 {
 	border: 1px dotted blue;
+}
+
+.footer-text
+{
+	font-size: 30px;
+	color: #a5be00;
+	margin: 0px;
 }
