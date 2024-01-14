@@ -1,10 +1,14 @@
 body
 {	
-	/*Get randomically from script*/
+	/*Get background-image randomically from script*/
 	/*background-image: url("images/background_1.jpg");*/
+	/*Get background-image randomically from script*/
 	font-family: Rockwell, Sans Serif, Verdana;
-	background-size: cover;
 	user-select: none;
+	width: 100vw;
+	height: 100vh;
+	background-position: center, center;
+	background-size: cover;
 }
 
 /*animations*/
