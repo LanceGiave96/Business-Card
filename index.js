@@ -1,15 +1,23 @@
 
 //Function to set randomically a image background
 import background from "./background.js"
-const images = background.images
+localStorage.setItem("images",JSON.stringify(background.images))
+let images = []
 const button_background = document.getElementById("button-background")
 button_background.addEventListener("click",getRandomBackground)
 
 function getRandomBackground(){
 
+    if(!images.length)
+    {   
+        images = JSON.parse(localStorage.getItem("images"))
+    }
+        
     let random = Math.floor( Math.random() * images.length )
     let image_url = images[random].url
     document.body.style.backgroundImage = `url(${image_url})`
+    images.splice(random,1)
+    console.log(`Length: ${images.length}`)
 
 }
 
