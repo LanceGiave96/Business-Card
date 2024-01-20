@@ -17,7 +17,6 @@ function getRandomBackground(){
     let image_url = images[random].url
     document.body.style.backgroundImage = `url(${image_url})`
     images.splice(random,1)
-    console.log(`Length: ${images.length}`)
 
 }
 
