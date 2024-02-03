@@ -11,6 +11,14 @@ body
 	background-size: cover;
 }
 
+/*Hoverflow hidden only for desktop/larger of 600px devices*/
+@media only screen and (min-width: 600px) {
+	body
+	{
+		overflow: hidden;
+	}
+} 
+
 /*animations*/
 @keyframes color-blue 
 {

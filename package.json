@@ -1,0 +1,34 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "This simple web project, created from scratch using ***HTML,CSS and Javascript*** has the scope to summarize my graduations and my technical skills ​👨‍🎓​🏋️‍♂️. In particular, my goal is to improve day by day my knowlewdge and my skills and show them in order to get potential and interesting job for my career as a ***Web Developer 🧑‍💻​💯​💫***​.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LanceGiave96/Business-Card.git"
+  },
+  "keywords": [
+    "Pedemonti",
+    "Enrico",
+    "computer",
+    "engineering",
+    "Skills",
+    "web",
+    "developer",
+    "upgrade",
+    "my",
+    "skills",
+    "enjoy",
+    "at",
+    "work"
+  ],
+  "author": "LanceGiave96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LanceGiave96/Business-Card/issues"
+  },
+  "homepage": "https://github.com/LanceGiave96/Business-Card#readme"
+}
