@@ -120,6 +120,22 @@ body
 	padding: 15px;
 }
 
+.links-section
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	gap: 15px;
+}
+
+.logo-link
+{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
 .button-style
 {
 	background-color: transparent;
@@ -140,7 +156,6 @@ body
 	{
 		background-color: /*rgb(216, 208, 212, 0.70)*/ #6c757d;
 	}
-
 
 }
 
